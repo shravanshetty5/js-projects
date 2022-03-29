@@ -1,0 +1,11 @@
+{
+    "tabWidth": 4,
+    "arrowParens": "always",
+    "overrides": [
+        {
+            "files": "*.svg",
+            "options": { "parser": "html" }
+        }
+    ],
+    "endOfLine": "auto"
+}
