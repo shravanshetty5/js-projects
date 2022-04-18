@@ -1,0 +1,51 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.item-container {
+  display: grid;
+  grid-template-rows: 20px 20px 20px;
+  grid-template-columns : 32px 300px 20px;
+  gap: 4px;
+}
+.logo {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+.name {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+.price {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+.remove-item {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+}
+.increment-count {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+}
+.count {
+  grid-column: 3 / 4;
+  grid-row: 2 / 3;
+}
+.decrement-count {
+  grid-column: 3 / 4;
+  grid-row: 3 / 4;
+}
+.item-container {
+  margin: 8px;
+}
+
+.total-container {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}

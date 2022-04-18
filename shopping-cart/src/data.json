@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Samsung Galaxy S8",
+        "price": "399.99",
+        "count": 1,
+        "url": ""
+    },
+    {
+        "id": "2",
+        "name": "Google Pixel",
+        "price": "499.99",
+        "count": 1,
+        "url": ""
+    },
+    {
+        "id": "3",
+        "name": "Xiaomi Redmi Note 2",
+        "price": "699.99",
+        "count": 1,
+        "url": ""
+    },
+    {
+        "id": "4",
+        "name": "Samsung Galaxy S7",
+        "price": "599.99",
+        "count": 1,
+        "url": ""
+    }
+]
